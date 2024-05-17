@@ -2,9 +2,11 @@
 import Layout from '../layouts/Layout.astro';
 import Button from '../components/Button.astro';
 import ReactButton from '../components/Button';
+import Accordion from '../components/Accordion.astro'
 ---
 
 <Layout title="Astro + Tailwind + React">
     <Button text="Astro Button" color="bg-orange-400 hover:bg-orange-500" />
     <ReactButton text="React Button" color="bg-blue-400 hover:bg-blue-500" />
+    <Accordion title="어떤 노래를 불러볼까요?" details="우린 짱이야 우린 짱이야" />
 </Layout>
